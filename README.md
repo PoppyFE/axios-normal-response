@@ -31,6 +31,8 @@ import normalResponse 'axios-normal-response';
 axios.interceptors.response.use(normalResponse.succResponseHandle,
   normalResponse.errResponseHandle);
 
+```
+
 ## Example
 
 <!-- example here -->
