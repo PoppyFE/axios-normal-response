@@ -28,7 +28,7 @@ $ npm i axios-normal-response --save
 ```js
 import normalResponse 'axios-normal-response';
 
-// optional custom code msg map
+// optional custom code msg map, example: { 401: '禁止访问', 404: '未知资源' }
 normalResponse.setResponseCodeMsg();
 
 axios.interceptors.response.use(normalResponse.succResponseHandle,
