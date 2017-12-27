@@ -28,6 +28,9 @@ $ npm i axios-normal-response --save
 ```js
 import normalResponse 'axios-normal-response';
 
+// optional custom code msg map
+normalResponse.setResponseCodeMsg();
+
 axios.interceptors.response.use(normalResponse.succResponseHandle,
   normalResponse.errResponseHandle);
 
