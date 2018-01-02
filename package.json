@@ -1,6 +1,6 @@
 {
   "name": "axios-normal-response",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Normal HTTP Handle Plugin for axios",
   "module": "./lib/index.js",
   "devDependencies": {
